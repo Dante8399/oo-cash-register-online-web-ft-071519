@@ -1,4 +1,5 @@
 class CashRegister
+  attr_reader :total
   attr_accessor :cash_register
   attr_accessor :cash_register_with_discount
   
