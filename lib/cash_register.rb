@@ -1,5 +1,5 @@
 class CashRegister
-  attr_accessor :cahs_register
+  attr_accessor :authenticate_or_request_with_http_basic_register
   attr_accessor :cash_register_with_discount
   
   def initialize
