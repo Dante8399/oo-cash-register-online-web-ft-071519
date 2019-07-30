@@ -1,9 +1,9 @@
 class CashRegister
-  attr_accessor :authenticate_or_request_with_http_basic_register
+  attr_accessor :cash_register
   attr_accessor :cash_register_with_discount
   
-  def initialize
-    @total = 0
+  def initialize(total=0)
+    @total = total
   end
   
   def discount 
